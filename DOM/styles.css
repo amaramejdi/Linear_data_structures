@@ -1,0 +1,54 @@
+.jumbotron{
+    background-image: url('Images/gettyimages-769800477.jpg');
+    text-align: center;
+    color: white;
+}
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+.jumbotron p{
+    color:orangered;
+    font-size: 20px;
+}
+
+.col{
+    text-align: center;
+    padding: 10px;
+}
+
+.row{
+    border: 2px solid orangered ;
+    margin: 4px;
+    border-radius: 7px;
+    display: flex;
+}
+
+.bi-heart{
+    color: grey;
+}
+
+.bi-heart-red{
+    color: orangered;
+}
+
+  
+
+button{
+    margin-top: 70px;
+}
+
+input{
+    text-align: center;
+}
+
+.total{
+    color: orangered;
+    font-size: 30px;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+}

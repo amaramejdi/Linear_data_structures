@@ -1,0 +1,26 @@
+ALGORITHM Sentence
+VAR 
+    stringC:STRING;
+    i, NumberWords,NumberChar, NumberV:INTEGER:=0;
+BEGIN
+    Write ("Give the sentence");
+    Read(stringC);
+
+    FOR i FROM 0 TO stringC['.'] STEP 1  DO
+        IF (stringC[i]) := ' ' THEN
+            NumberWords := NumberWords + 1;
+        END_IF
+
+        IF (stringC[i] =:'a' or stringC[i] =:'e' or stringC[i] =:'i' or stringC[i] =:'o' or stringC[i] =:'u' or stringC[i] =:'y') THEN
+            NumberV :=  NumberV + 1;
+        END_IF
+        
+        NumberChar:= NumberChar + 1;
+
+    END_FOR
+
+       Write("The sentence length :",NumberChar);
+       Write("The number of words in the sentence is:",NumberWords);
+       Write("The number of vowels in the sentence",NumberV);
+
+END

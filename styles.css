@@ -1,0 +1,156 @@
+.header {
+    background-color: #5D6D7E;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    /* background-image: url('image/webdev.png'); */
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+  }
+
+  hr{
+      color:#C70039;
+  }
+
+  .title{
+      color: white;
+      font-family: "Sofia", sans-serif;
+      text-shadow: 2px 2px 4px #000000;
+  }
+
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+h1{
+    font: fantasy;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#7EA6BB;  
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+li a:hover{
+    background-color:#5D6D7E;
+}
+
+img {
+    opacity: 1.0;
+    border-radius: 8px;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
+
+  .content{
+      padding: 10px;
+  }
+
+  footer{
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #581845;
+   color: white;
+   text-align: center;
+   padding: 10px;
+  }
+
+  input[type=text], textarea{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #FF5733;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #FEF5BD;
+  }
+
+  input[type=submit]{
+      width: 100%;
+      background-color: #FF5733;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover{
+      background-color:#B8A29D;
+  }
+
+  label{
+      font-size: 20px;
+      color: #FF5733;
+  }
+
+  .profil{
+      background-color: #DAF7A6;
+      border: 1px solid #C70039;
+      border-radius: 4px;
+  }
+
+  .education{
+      background-color: #B6C6F5;
+      border: 1px solid #C70039;
+      border-radius: 4px;
+  }
+
+  .professionalExperience{
+      background-color:#F5C4B6;
+      border: 1px solid #C70039;
+      border-radius: 4px;
+  }
+
+  .nomPage{
+      font-family: cursive;
+      font-size: 14px;
+      color: #2A628A;
+      text-shadow: 2px 2px 4px white;
+  }
+
+  footer p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 14px;;
+  }
+
+div.gallery{
+   margin: 5px;
+   float: left;
+   position: fixed;
+}
